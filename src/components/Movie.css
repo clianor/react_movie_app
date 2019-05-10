@@ -1,0 +1,37 @@
+.Movie {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    width: 40%;
+    margin-bottom: 2.5rem;
+    padding: 0 1rem;
+    box-shadow: 0 8px 38px rgba(133, 133, 133, 0.3), 0 5px 12px rgba(133, 133, 133,0.22);
+}
+
+.Movie__Column {
+    width: 35%;
+    box-sizing: border-box;
+}
+
+.Movie__Column:last-child {
+    padding: 1.5rem 0;
+    width: 60%;
+}
+
+.Movie__Column h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.Movie__Column span {
+    margin-right: 0.5rem;
+    color: #B4B5BD;
+}
+
+.Movie__Column p {
+    text-overflow: ellipsis;
+    color:#B4B5BD;
+    overflow: hidden;
+
+}

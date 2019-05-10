@@ -1,0 +1,13 @@
+.App {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.App-loading {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
