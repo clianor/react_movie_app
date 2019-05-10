@@ -26,7 +26,6 @@ class App extends Component {
     this.setState({
       movies: movies
     });
-    console.log(movies);
   }
 
   _callApi = () => {
